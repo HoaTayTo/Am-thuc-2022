@@ -42,10 +42,155 @@
         background-color: #f2f2f2;
         padding: 30px;
       }
+      header {
+      background: #cb7802;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      padding-right: 20px;
+      margin-left: 33px;
+      width: 1600px;
+      height: 80px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  header img {
+      height: 80px;
+      padding-left: 30px;
+      
+  }
+
+  nav {
+      height: 35px;
+      background: #272f54;
+      margin-bottom: 5px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      padding-right: 20px;
+      margin-left: auto;
+      margin-right : auto;
+
+      width: 1600px;
+      background-position: center;
+      background-size: cover;
+      
+  }
+
+  nav .menu ul {
+      list-style: none;
+  }
+
+  nav .menu ul li {
+      float: left;
+      line-height: 35px;
+      padding: 0 15px;
+  }
+
+  nav .menu ul li a {
+      color: aliceblue;
+      text-decoration: none;
+      font-size: 15px;
+  }
+
+  nav .search {
+      line-height: 35px;
+      float: right;
+      margin-right: 35px;
+      margin-top: -0.1px;
+  }
+
+  #slide {
+      background-image: url(image/banner.jpg);
+      background-position: center;
+      background-size: cover;
+     margin-left: 34px;
+      width: 1610px;
+      height: 400px;
+      border-radius: 0px;
+  }
+
+  article h3 {
+      text-align: center;
+      padding: 15px 0;
+      color: #272f54;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+
+  article {
+      margin-bottom: 10px;
+  }
+
+  .new_list {
+      display: flex;
+      justify-content: center;
+  }
+
+  .new_list img {
+      max-width: 80%;
+      min-width: 80%;
+  }
+
+  .new_item {
+      border: 1px solid black;
+      margin-left: 5px;
+      margin-right: 5px;
+      text-align: center;
+  }
+
+  .menu a:hover {
+      background-color: #fff;
+      color: black;
+  }
+
+  footer {
+            width: 1610px;
+            height: 100px;
+            background: #272f54;
+            text-align: center;
+            margin-top: 5px;
+            padding-top: 7px;
+            border-radius: 20px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            position: absolute;
+            bottom: 0;
+        }
+
+  #fix {
+      margin-right: 0px;
+  }
     </style>
   </head>
   <body>
-    <h2>Liên hệ với chúng tôi</h2>
+   
+</style>
+</head>
+
+<body>
+<div class="container">
+  <header>
+      <a href="./"><img src="image/logo.png" alt=""></a>
+  </header>
+  <nav>
+      <div class="menu">
+          <ul>
+              <li><a href="./">Trang chủ</a></li>
+              <li><a href="am-thuc/index.html">Ẩm thực</a></li>
+              <li><a href="dia-danh/index.html">Du lịch</a></li>
+              <li><a href="./am-thuc/contact.html">Contact</a></li>
+              <li><a href="./about.html">About</a></li>
+          </ul>
+      </div>
+      <div class="search">
+          <input type="search" placeholder="Search...">
+          <button>Tìm kiếm</button>
+      </div>
+  </nav>
+  
+    <h2 style="margin-left: 10px; margin-right: auto;" >Liên hệ với chúng tôi</h2>
     <form action="#">
       <div class="container">
         <label for="name">Họ và tên:</label>
@@ -63,5 +208,15 @@
         <input type="submit" value="Gửi">
       </div>
     </form>
+    <footer>
+            
+      <p>Họ và tên: Đoàn Văn Hòa</p>
+      <p style="margin-left: -50px;">
+          MSSV: 2001215783
+      </p>
+      <p></p>
+      
+     
+  </footer>
   </body>
 </html>
